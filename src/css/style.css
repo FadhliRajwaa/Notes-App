@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary: #6366f1;
+    --secondary: #3b82f6;
+    --accent: #8b5cf6;
+    --background: #f8fafc;
+    --text: #1e293b;
+    --card-bg: rgba(255, 255, 255, 0.9);
+}
+
+body {
+    background: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+app-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.notes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.tab-container button {
+    background: #e2e8f0;
+    color: #1e293b;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.tab-container button.active {
+    background: var(--primary);
+    color: white;
+}
+
+.tab-container button:hover {
+    background: var(--secondary);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .notes-container {
+        padding: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+    .form-container {
+        margin: 1rem auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .notes-container {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+}
