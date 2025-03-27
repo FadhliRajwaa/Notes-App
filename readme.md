@@ -9,7 +9,7 @@
 
 | Desktop Version | Mobile Version |
 |-----------------|----------------|
-| ![Desktop Preview](src/img/Desktop.jpg) | ![Mobile Preview](src/img/Mobile.jpg) |
+| ![Desktop Preview](src/img/Dekstop.jpg) | ![Mobile Preview](src/img/Mobile.jpg) |
 
 ---
 
