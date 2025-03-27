@@ -1,7 +1,17 @@
 # 📝 Notes App
 
-![Notes App Banner](https://via.placeholder.com/1200x300.png?text=Notes+App+Banner)  
-**A modern and responsive note-taking application built with Web Components, RESTful API, and modern JavaScript.**
+
+**🌐 Live Demo:** [https://notes-app-ten-sigma.vercel.app/](https://notes-app-ten-sigma.vercel.app/)
+
+---
+
+## ✨ Preview
+
+| Desktop Version | Mobile Version |
+|-----------------|----------------|
+| ![Desktop Preview](src/img/Desktop.jpg) | ![Mobile Preview](src/img/Mobile.jpg) |
+
+---
 
 ---
 
